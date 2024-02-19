@@ -13,7 +13,7 @@ If there’s already an API for this and I just missed it please let me know in 
 
 ### Install:
 
-You can just point to the `main` branch with Swift Package Manager.
+It’s a Swift Package. You can use Swift Package Manager.
 
 ### Usage:
 
