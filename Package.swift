@@ -21,7 +21,7 @@ let package = Package(
 		.target(
 			name: "HandShapeClassifier"),
 		.testTarget(
-			name: "HandShapeTests",
+			name: "HandShapeClassifierTests",
 			dependencies: ["HandShapeClassifier"]
 		),
 	]
