@@ -4,20 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "HandShapeClassifier",
+    name: "HandShape",
+		platforms: [
+			.visionOS("1.0")
+		],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "HandShapeClassifier",
-            targets: ["HandShapeClassifier"]),
+            name: "HandShape",
+            targets: ["HandShape"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "HandShapeClassifier"),
+            name: "HandShape"),
         .testTarget(
-            name: "HandShapeClassifierTests",
-            dependencies: ["HandShapeClassifier"]),
+            name: "HandShapeTests",
+            dependencies: ["HandShape"]),
     ]
 )

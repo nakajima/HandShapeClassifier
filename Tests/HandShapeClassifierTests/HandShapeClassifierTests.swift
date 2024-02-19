@@ -1,5 +1,5 @@
 import XCTest
-@testable import HandShapeClassifier
+@testable import HandShape
 
 final class HandShapeClassifierTests: XCTestCase {
     func testExample() throws {
