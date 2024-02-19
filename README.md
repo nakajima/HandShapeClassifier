@@ -1,4 +1,4 @@
-# import HandShapeClassifier
+# `import HandShapeClassifier`
 
 This library allows for recognition of certain hand shapes when using visionOS. It
 currently supports `fist`, `openPalm` and `holding([Finger])` which contains the currently
