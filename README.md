@@ -11,6 +11,10 @@ If there’s already an API for this and I just missed it please let me know in 
 
 ![gif demo of the example app](https://github.com/nakajima/HandShapeClassifier/blob/main/handdemo.gif?raw=true)
 
+### Install:
+
+You can just point to the `main` branch with Swift Package Manager.
+
 ### Usage:
 
 ```swift
