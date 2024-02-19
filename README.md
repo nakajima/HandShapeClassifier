@@ -7,6 +7,8 @@ held up fingers.
 The detection method is naive and could be improved. Other shapes could be added as well.
 Still, hope you find it useful.
 
+If there’s already an API for this and I just missed it please let me know in the issues lol.
+
 ![gif demo of the example app](https://github.com/nakajima/HandShapeClassifier/blob/main/handdemo.gif?raw=true)
 
 ### Usage:
